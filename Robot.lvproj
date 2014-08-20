@@ -144,6 +144,7 @@ DirectoryIndex index.htm
 			<Item Name="Parse Number.vi" Type="VI" URL="../AppleScript/Parse Number.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="autonomous.apple" Type="Document" URL="../autonomous.apple"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
