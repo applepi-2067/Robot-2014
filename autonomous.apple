@@ -29,26 +29,26 @@ automode 4 //two ball
 	switch forward Harvester Lift                //drop the harvester
 	run motor Harvester; at -0.4; for 0.6        //roll harvester in to retain ball
 	group 2
-		drive at 0,0.52,0; for 1.7               //drive forward
-		run motor Harvester; at -0.65            //while running the harvester in
+	    drive at 0,0.52,0; for 1.7               //drive forward
+	    run motor Harvester; at -0.65            //while running the harvester in
 	run motor Harvester; at 0; for 0             //stop harvester
 	drive at 0,-0.3,0; for 0.25                  //stop driving	              
 	shoot until shooter is resetting             //shoot the ball, wait until resetting
 	group 3
-		drive at 0,-0.5,0; for 0.5               //drive backward
-		run motor Harvester; at -1               //while running harvester at full speed
-		shoot continue                           //and resetting the shooter
+	    drive at 0,-0.5,0; for 0.5               //drive backward
+	    run motor Harvester; at -1               //while running harvester at full speed
+	    shoot continue                           //and resetting the shooter
 	group 3  
-		drive at 0,0.3,0; for 0.25               //stop driving
-		run motor Harvester; at -1          	 //while running harvester at full speed
-		shoot continue                           //and resetting the shooter   
+	    drive at 0,0.3,0; for 0.25               //stop driving
+	    run motor Harvester; at -1               //while running harvester at full speed
+	    shoot continue                           //and resetting the shooter   
 	group 2
-		run motor Harvester; at -1; for 0.4      //run harvester at full speed
-		shoot continue                           //while resetting the shooter
+	    run motor Harvester; at -1; for 0.4      //run harvester at full speed
+	    shoot continue                           //while resetting the shooter
 	switch reverse Harvester Lift                //put up the harvester
 	group 2
-		drive at 0,0.5,0; for 0.5                //drive forward
-		run motor Harvester; at -0.7             //while running the harvester in
+	    drive at 0,0.5,0; for 0.5                //drive forward
+	    run motor Harvester; at -0.7             //while running the harvester in
 	run motor Harvester; at -0.5; until has ball //keep harvesting until there is a ball
 	shoot                                        //shoot second ball
 end
