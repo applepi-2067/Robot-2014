@@ -5,18 +5,18 @@ automode 0 //nothing
 end
 
 automode 1 //mobility
-	drive at 0,0.45,0; for 1.2 //drive forward
+	drive at 0,0.45,0; for 1.5 //drive forward
 end
 
 automode 2 //one ball without vision
-	drive at 0,0.45,0; for 1.2      //drive forward
+	drive at 0,0.45,0; for 1.75     //drive forward
 	shoot                           //shoot
 	switch reverse Harvester Lift   //put harvester up
 	drive at 0,-1,0 for 0.5         //drive back
 end
 
 automode 3 //one ball with vision
-	drive at 0,0.45,0; for 1.2             //drive forward
+	drive at 0,0.45,0; for 1.75             //drive forward
 	switch forward Harvester Lift          //put harvester down
 	run motor Harvester; at -0.5; for 0.7  //roll harvester in to retain ball
 	wait until goal is hot                 //wait until goal is hot
@@ -29,7 +29,7 @@ automode 4 //two ball
 	switch forward Harvester Lift                //drop the harvester
 	run motor Harvester; at -0.4; for 0.6        //roll harvester in to retain ball
 	group 2
-	    drive at 0,0.52,0; for 1.7               //drive forward
+	    drive at 0,0.52,0; for 1.6               //drive forward
 	    run motor Harvester; at -0.65            //while running the harvester in
 	run motor Harvester; at 0; for 0             //stop harvester
 	drive at 0,-0.3,0; for 0.25                  //stop driving	              
