@@ -143,8 +143,12 @@ DirectoryIndex index.htm
 			<Item Name="Get Boolean.vi" Type="VI" URL="../AppleScript/Get Boolean.vi"/>
 			<Item Name="Parse Number.vi" Type="VI" URL="../AppleScript/Parse Number.vi"/>
 		</Item>
+		<Item Name="Gyro" Type="Folder">
+			<Item Name="Open Gyro.vi" Type="VI" URL="../Gyro/Open Gyro.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="autonomous.apple" Type="Document" URL="../autonomous.apple"/>
+		<Item Name="Gyro Global.vi" Type="VI" URL="../Gyro/Gyro Global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
