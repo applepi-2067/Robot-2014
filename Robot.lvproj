@@ -121,7 +121,6 @@ DirectoryIndex index.htm
 			<Item Name="Open Swerve Drive.vi" Type="VI" URL="../Swerve Drive/Open Swerve Drive.vi"/>
 			<Item Name="Angle Distance.vi" Type="VI" URL="../Swerve Drive/Angle Distance.vi"/>
 			<Item Name="Wheel Pivot.vi" Type="VI" URL="../Swerve Drive/Wheel Pivot.vi"/>
-			<Item Name="Gyro Angle.vi" Type="VI" URL="../Swerve Drive/Gyro Angle.vi"/>
 			<Item Name="Encoders.vi" Type="VI" URL="../Swerve Drive/Encoders.vi"/>
 			<Item Name="Swerve Go To.vi" Type="VI" URL="../Swerve Drive/Swerve Go To.vi"/>
 		</Item>
@@ -147,6 +146,8 @@ DirectoryIndex index.htm
 			<Item Name="Gyro Global.vi" Type="VI" URL="../Gyro/Gyro Global.vi"/>
 			<Item Name="Open Gyro.vi" Type="VI" URL="../Gyro/Open Gyro.vi"/>
 			<Item Name="Update Gyro.vi" Type="VI" URL="../Gyro/Update Gyro.vi"/>
+			<Item Name="Get Double Gyro.vi" Type="VI" URL="../Gyro/Get Double Gyro.vi"/>
+			<Item Name="Get Gyro.vi" Type="VI" URL="../Gyro/Get Gyro.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="autonomous.apple" Type="Document" URL="../autonomous.apple"/>
@@ -615,6 +616,10 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
