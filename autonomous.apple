@@ -1,18 +1,27 @@
 //Team 2067 Autonomous Code
 //Written in AppleScript
 
+automode 5 //testing stuffs
+	drive at 0,0.4,0; for 1
+	shoot until shooter is resetting
+	switch reverse Harvester Lift
+	shoot finish
+	wait for 1
+	drive at 0,-0.4,0; for 1
+end
+
 automode 0 //nothing
 end
 
 automode 1 //mobility
-	drive at 0,0.45,0; for 1.5 //drive forward
+	drive at 0,0,0.2 for 1.5 //drive forward
 end
 
 automode 2 //one ball without vision
 	drive at 0,0.45,0; for 1.75     //drive forward
 	shoot                           //shoot
 	switch reverse Harvester Lift   //put harvester up
-	drive at 0,-1,0 for 0.5         //drive back
+	drive at 0,-1,0; for 0.5         //drive back
 end
 
 automode 3 //one ball with vision
